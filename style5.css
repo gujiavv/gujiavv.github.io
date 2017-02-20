@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: abc;
+	src:url('BrushScriptStd.otf');
+}
+
+p{
+/*	font-size:50px;
+*/
+/*    font-size: xx-small;
+*/   
+      /*font-size: xx-large;
+      color: red;*/
+/*      font-variant:small-caps; 
+*/
+      /*normal 表示如果以小型大写状态，让它恢复小写状态
+       */
+       /*small-caps  让小写字母以小型大写字母显示*/
+       /*font-style: italic;  让文字倾斜*/
+/*       font-style: oblique;  表示让文字倾斜 区别在没有斜体时使用
+*/
+/*        font-weight: bold;
+*/        /*bold 粗体 bolder 更粗的字体*/
+        /*font-weight: 700;  100~900   600以上加粗*/
+        /*font-family: 微软雅黑;*/
+/*        font-family: 楷体1，微软雅黑1，宋体;
+*/  
+/*        font:50px 楷体;
+*/        
+         font-family:abc; 
+
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+div	{
+	width:200px;
+	height: 200px;
+	/*border-style: solid;
+	border-color: red;
+	border-width: 3px;*/
+	/*border-width: thin;*/
+	/*border-width: thick;*/
+	/*border-style: none;*/
+	/*border-style: dashed;  虚线*/
+    /*border-style: dotted; 原点线边框*/
+    /*border-style: double; 双线边框*/
+    /*border-style:groove; 槽线边框*/
+    /*border-style: inset; 使元素内容具有内嵌效果的边框*/
+      /*border-style: outset;使元素具有外凸效果的边框*/
+      /*border-style: ridge; 脊线边框*/
+      /*border-style: solid;实线边框*/
+
+      border:1px solid red; 
+      /*border-radius: 10px;*/
+      /*border-radius: 10px 20px 30px 40px;*/
+
+
+
+
+      /*单边框*/
+     /* border-top-width: 1px;
+      border-top-style: solid;
+      border-top-color: orange;*/
+
+
+}

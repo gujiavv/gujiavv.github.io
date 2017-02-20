@@ -1,0 +1,67 @@
+@charset "utf-8";
+/*#box {*/
+   /* font-size: 20px;
+    color:yellow;
+    float: right;
+    background-color: #ccc;*/
+/*}*/
+
+/*#pox {
+	font-size: 10px;
+    color:red;
+    float: left; 
+    background-color: #eee;
+}
+.aaa {
+	font-size: 30px;
+}
+
+.bbb {
+     	font-weight: bold;
+}
+
+.ccc {
+	background-color: green;
+}
+
+.ddd {
+	text-decoration: underline;
+}*/
+
+#box {
+	font-size: 20px;
+	color: red;
+	background:#ccc;
+}
+
+#pox {
+	border: 1px solid black;
+	color: green;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

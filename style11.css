@@ -1,0 +1,49 @@
+@charset "utf-8";
+table {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    /*border-collapse: separate;   边框独立有填充内容*/
+    /*border-collapse: collapse; */
+    /*border-spacing: 10px;*/
+    /*caption-side: bottom; */
+    /*empty-cells: hide;*/
+    /*table-layout: fixed;  auto 默认值，内容过长时，拉伸整个单元格  */
+    /*fixed 内容过长时，不拉伸整个单元格*/
+    /*border: 1px solid red;  某些浏览器只显示外边框*/ 
+}
+/*
+table tr th,table tr td {
+	border: 1px solid red;   
+}
+内边框*/
+
+ul	{
+	/*list-style-type: upper-alpha;  */
+	/*list-style-position: outside;*/
+	/*none 没有标记*/
+	/*disc 实心圆*/
+	/*circle 实心圆*/
+	/*square 实心方块*/
+	/*decimal 阿拉伯数字*/
+	/*lower-roman 小写罗马数字*/
+	/*upper-roman 大写罗马数字*/
+	/*lower-alpha 小写英文字母*/
+	/*upper-alpha 大写英文字母*/
+	list-style: lower-alpha inside url(img.png);
+}
+
+b {
+	/*vertical-align: sub; 下标*/
+	/*vertical-align: super;  上标 */
+}
+
+div	span {
+	background: red;
+	vertical-align: 10px;
+	
+}
+
+.sex {
+	background-color: red;
+}

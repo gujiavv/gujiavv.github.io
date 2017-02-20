@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/*:root {
+    border: 1px solid red;
+}*/
+
+/*ul>li{
+	color: red;
+}*/
+
+/*ul>li:first-child{
+	color: red;
+}*/
+/*
+:first-child{
+  color: red;
+}*/
+
+/* 伪类都需要加上前置选择器来限制范围*/
+
+/*ul>li:last-child
+{
+	color: red;
+}*/
+
+/*选择只有一个子元素的那个子元素*/
+
+/*ul>li:only-of-type{
+	color: red;
+}*/
+
+/*div >p : only-of-type{
+	color: red;
+}*/
+
+/*ul > li:nth-child(2) {
+	color: red;
+
+}*/
+
+/*div > p:nth-last-of-type(2)
+{
+	color: red;
+}
+*/
+
+/*input:enabled{
+	border: 1px solid red;
+}
+
+input:disabled{
+	border: 1px solid blue;
+}
+
+input:checked {
+	display:none;
+}
+*/
+/*input:default {
+	display: none;
+}*/
+
+/*input:valid{
+	border: 1px solid green;
+}
+
+input:invalid{
+	border: 1px solid red;
+}*/
+
+/*合法与不合法*/
+
+/*input:required{
+	border: 1px solid red;
+}
+
+input:optional{
+	border: 1px solid blue;
+}*/
+
+/*a:link{
+	color: red;
+}
+
+
+a:visited{
+	color: orange;
+}
+//访问过
+
+
+a:hover{
+	color: orange;
+}
+
+a:active{
+	color: green;
+}*/
+
+/*input:focus{
+	border: 1px solid red;
+}*/
+
+/*a:not([herf*="baidu"]){
+	color: orange;
+}
+*/
+/*p:empty {
+	display: none;
+}
+*/
+
+/*b:target {
+	color: red;
+}  定位到此锚点
+*/
+
+/*::selection{
+	color: red;
+};*/
+
+

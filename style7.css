@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*body {
+	width: 600px;
+	border: 1px solid red;
+}*/
+
+div {
+	
+	background: silver;
+	/*width: 50px;
+	height: 50px;
+
+	min-width: 100px;
+	min-height: 100px;*/
+	max-width: 300px;
+	max-height: 100px;
+	/*auto 是默认值 width在auto是100%  height是自适应*/
+	/*padding-top: 10px; */
+	/*padding-bottom: 10px; */
+	/*padding: 10px; 四个方向的边距都是10px */
+	/*padding: 10px 20px;  上下10  左右20 */
+	/*padding: 10px 20px 300px 40px;  上右下左 */
+    /*margin: 20px;   外边距 */
+      /*overflow-x: auto;    */
+      /*auto 浏览器自行处理溢出内容，如果溢出内容，就显示滚动条，否则就不显示滚动条*/
+      /*overflow: hidden; */
+      /*hidden 如果有溢出的内容 直接剪掉*/
+      /*overflow-x: scroll;   */
+      /*不管是否溢出，都会出现滚动条。但不同平台和浏览器显示方式不同*/
+      /*overflow-x: visible; */
+      /*默认值，不管是否溢出，都显示内容*/
+}

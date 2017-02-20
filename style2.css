@@ -1,0 +1,115 @@
+@charset "utf-8";
+ 
+ /* *{
+	border: 1px solid red;
+}*/
+/*通用选择器会将所有元素匹配并配置样式，这是把双刃剑，好处就是非常方便，
+坏处就是将不必要的元素也配置了。目前为止，还不存在所有元素都必须配置的样式，
+所以，一般来说 不常用*/
+
+/*p{
+	color: red;
+}*/
+/*元素选择器*/
+
+/*#abc{
+	color: red;
+}*/
+
+/*通过对元素设置全局属性id，然后使用#id值来选择页面唯一元素*/
+
+/*.abc{
+	color: blue;
+}*/
+/*通过对元素设置全局属性class，然后.class值选择页面一个或多个元素*/
+
+/*也可以限定到某个元素的class属性*/
+
+/*.abc{
+	color: red;
+}
+
+.def{
+	font-size: 30px;
+}*/
+
+/*def 为扩展样式*/
+/*[href]{
+	color: red;
+}*/
+
+/*属性选择器*/
+/*
+[type="password"]{
+  border: 1px solid red;
+}
+*/
+
+/*[href^="http"]{
+	color: red;
+}*/
+/*匹配开头*/
+
+/*[href$=".cn"]
+{
+	color: blue;
+}*/
+/*匹配结尾*/
+
+/*[href*="baidu"]{
+	color: orange;
+}
+*/
+/*属性值包含指定字符的属性选择器*/
+
+/*[class~="edf"]
+{
+	font-size: 50px;
+}*/
+
+/*[lang |= "en"]
+{
+	color: red;
+}
+
+*/
+/*p,b,i,span
+{
+	color: red;
+}*/
+
+/*#abc,.abc,i,span
+{
+	color: blue;
+}*/
+
+/*p b {
+	color: red;
+}
+
+p > b{
+	color: orange;
+}*/
+
+/*ol>li{
+	border: 1px solid red;
+ } 子选择器*/
+
+:/*:first-line {
+	color: red;
+}
+
+::first-letter{
+    color: blue;
+}
+*/
+
+/*a::before{
+	content:'点击'；
+}
+*/
+a::after{
+	content: "搜索"
+}
+
+

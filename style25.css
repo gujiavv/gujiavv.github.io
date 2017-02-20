@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+p  {
+    width: 150px;
+    border: 1px solid gray;
+	margin: 5px;
+    padding: 5px;
+    background-color: silver;
+}
+
+/*div	{
+
+    width: 100%;*/
+	/*background-color: red;*/
+	/*display: -moz-inline-box;
+	display: -webkit-box;
+	display: box;*/
+
+	/*box-orient 内部的流动方向*/
+	/*-moz-box-orient:block-axis;		
+	-webkit-box-orient:block-axis;*/
+
+    /*horizontal 伸缩项目从左到右水平排列*/
+    /*vertical 伸缩项目从上到下垂直排列*/
+    /*inline-axis 伸缩项目沿着内联轴排列显示*/
+    /*block-axis 伸缩项目沿着块轴排练显示*/
+
+
+    /*box-direction 流动方向*/
+    /* -moz-box-direction:reverse;
+    -webkit-box-direction:reverse;*/
+    /*-moz-box-pack:end;*/
+    /*-webkit-box-pack:end;*/
+    /*-webkit-box-pack:justify;*/
+
+    /*从结尾的地方开始*/
+    /*-webkit-box-align:start;*/
+    /*box-align 属性用来处理伸缩容器的额外空间*/
+    /*start 以顶部为基准，清理下部额外空间*/
+    /*end 伸缩项目以底部为基准，情理上部额外空间*/
+    /*center 情理上下部额外空间*/
+    /*baseline 以基线为基准，清理额外的空间*/
+    /*stretch 伸缩项目填充整个容器*/
+/*}*/
+
+/*p:nth-child(1) {
+	/*background-color: red;*/
+	/*-moz-box-flex:1;*/
+/*}*/
+
+/*p:nth-child(2) {*/
+	/*background-color: red;*/
+	/*-moz-box-flex:3;
+	-moz-box-ordinal-group:1;
+
+}*/
+
+/*p:nth-child(3) {*/
+	/*background-color: red;*/
+	/*-moz-box-flex:1;
+	-moz-box-ordinal-group:3;
+
+}*/
+
+/*box-ordinal-group 属性可以设置伸缩项目的显示位置。*/
+/*//将第一个位置的元素，跳转到第三个位置*/
+
+/*p:nth-child(1){
+	-moz-box-ordinal-group:2;
+}*/
+
+div {
+    width: 100%;
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    /*无法容纳自动换行*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-around;*/
+    align-items: center;
+}
+
+
+
+
+

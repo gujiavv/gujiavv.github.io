@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+body {
+	margin: 100px;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	background-color: white;
+	/*animation-name: myani;
+	animation-duration: 1s;
+	animation-timing-function: ease-in*/;
+	/*animation-delay: 1s;*/
+	/*animation-iteration-count: 4;*/
+	/*animation-direction: alternate;*/
+	/*设置缓动方向交替*/
+	/*normal 默认值，每次播放向前*/
+	/*alternate 一次向前，一次向后，一次向前 一次向后的交替*/
+	/*animation-play-state: paused;*/
+    /*animation-fill-mode: both;*/
+    animation: myani 1s ease-in 2 alternate 1s both;
+}
+
+@keyframes myani {
+	/*0%,100%{
+		background-color: white;
+		margin-left: 0px;
+	}
+	50% {
+		background-color: black;
+		margin-left: 100px;
+	}
+	100%{
+		background-color: white;
+		margin-left: 0px;
+	}*/
+
+
+	from {
+		background-color: white;
+		margin-left: 0px;
+	}
+	to {
+		background-color: black;
+		margin-left: 100px;
+	}
+}

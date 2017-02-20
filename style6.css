@@ -1,0 +1,30 @@
+@charset "utf-8";
+p{
+	font-size: 20px;
+	/*background: silver;*/
+	/*text-align: left;  居左居右*/
+	/*text-decoration: underline;  添加下划线*/
+	/*text-decoration: overline;  添加上划线*/
+	/*text-decoration: line-through; 中间添加一条线*/
+	/*text-decoration: blink; */
+	/*text-transform: uppercase;   小写转换成大写*/
+	 /*text-transform: lowercase;  大写转成小写*/
+	 /*text-transform: capitalize; 将英文单词首字母大写*/
+	 /*none  将已转换的转换回来*/
+	 /*text-shadow: 3px 3px 3px red;  给文本添加阴影*/
+	 /*text-align: justify;  两端对齐*/
+	 /*white-space: normal;  默认值，空白符被压缩，文本自动换行*/
+	 /*white-space: nowrap; 空白符被压缩，文本不换行*/
+	 /*white-space: pre; 空白符被保留，遇到换行符则换行 */
+	 /*white-space: pre-line;  空白符被压缩，文本会在排满或遇到换行符换行 */
+	 /*white-space: pre-wrap; 空白符被保留，文本会在排满或遇换行符换行 */
+	 /*letter-spacing: 10px; 设置文字之间的间距*/
+	 /*word-spacing: 10px;  单词与单词之间*/
+      /*line-height: 20px; */
+      /*word-wrap: break-word; 单词断开*/
+      /*text-indent: 20px;  文本首行的缩进 */
+}
+
+/*a{
+	text-decoration: none;  去掉下划线
+}*/

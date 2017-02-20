@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+div {
+	width: 500px;
+	height: 200px;
+	/*background-color: green;*/
+	/*background-image: linear-gradient(45deg,orange 35%,green 35%,blue 30%,red);*/
+	/*我们可以使用以角度单位的数值来设置方位。比如0度（0deg）相当于to top: 角度会沿逆时针方向随着你的角度的增加而增加*/
+   /* 默认情况下，起始颜色百分比位置是0% 末尾颜色的百分比位置是100%，其他位置按照平均值分配。
+    也可以使用px像素来设定，但计算麻烦点*/
+    /*background-color: red;*/
+    /*background-image: linear-gradient(to top right,rgba(0,0,0,0.6),rgba(0,0,0,0));*/
+      /*background-image: repeating-linear-gradient(orange 10px,green 30px);*/
+    /*background-image: radial-gradient(circle at top right,orange,green);*/
+    /*椭圆 从中心发散*/
+      /*background-image: radial-gradient(circle closest-side,orange,green);*/
+     /*circle closest-side 最短的边作为渐变半径*/
+     /*closest-corner 最近的角*/
+      /*background-image: radial-gradient(circle closest-corner,orange,green);*/
+      /*fathest-side 指定径向渐变的半径长度为从圆心到离圆心最远的边*/
+      /*farthest-corner 指定径向渐变的半径长度为从圆心到离圆心最远的角*/
+      background-image: repeating-radial-gradient(circle 20px,orange,green);
+
+}
