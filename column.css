@@ -3,18 +3,18 @@
 #headline {
 	width: 100%;
 	min-width: 1263px;
-	height: 400px;
+	height: 800px;
 	background:linear-gradient(to bottom right,rgba(0,0,0,0.2),rgba(0,0,0,0.0)),url(./img/search2.jpg) no-repeat center;
 }
 
 #headline .center {
 	width: 1263px;
-	height: 400px; 
+	height: 800px; 
 	margin: 1 auto;
 }
 
 #headline hgroup {
-	padding: 100px 0 0 50px;
+	padding: 200px 0 0 100px;
 }
 
 #headline h2 {
@@ -37,6 +37,27 @@
 	margin: 30px auto;
 }
 
+
+
+
+#container .tag {
+	padding: 10px 0;
+}
+
+#container .tag li {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	background-color: #eee;
+}
+
+#container .tag a {
+display: block;
+	color: #999;
+
+}
 
 #container .sidebar {
 	width: 340px;
@@ -62,25 +83,6 @@
 	background-color: #fafafa;
 	color: #666;
 	text-align: left;
-}
-
-#container .tag {
-	padding: 10px 0;
-}
-
-#container .tag li {
-	display: inline-block;
-	width: 100px;
-	height: 35px;
-	line-height: 35px;
-	margin: 2px 0;
-	background-color: #eee;
-}
-
-#container .tag a {
-display: block;
-	color: #999;
-
 }
 
 #container .tag a:hover {
@@ -192,7 +194,7 @@ display: block;
 
 
 #container .tour {
-	width: 908px;
+	width: 920px;
 	padding: 0;
 	margin: 0 0 20px 0;
 	border: 1px solid #eee;

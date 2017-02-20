@@ -52,7 +52,7 @@ ul,ol{
 }
 
 #header .link{
-     width: 650px;
+     width: 520px;
      height: 70px;
      line-height: 70px;
      color: #eee;
@@ -72,7 +72,7 @@ ul,ol{
 
 
 #header .link li a:hover,#header .active a{
-	background-color: #000;
+	background-color: #232323;
 }
 
 
