@@ -3,46 +3,65 @@
     <meta charset="UTF-8" />
     <style>
         li{padding-top: 20px;}
+        input[type="button"] {
+        height: 40px;
+    }
+        .txt1 input[type="text"] {
+        width: 90%;
+        height: 50px;
+        vertical-align: top;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid rgb(227,64,5);
+        border-radius: 10px 10px 10px 10px;
+        padding-left: 5px;
+    }
+    button{
+        height: 50px;
+        width: 100px;
+    }
     </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        function jump(){
+            javascrtpt.location.href=jQuery('#in').val();
+        }
+    </script>
+     
     <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,minimal-ui">
 </head>
 <html>
     <ul>
         <li>
-            <input type="button" value="Store页面" onclick="javascrtpt:window.location.href='balletcrypto://store'">
+            <div>
+                <input type="button" value="Store页面" onclick="javascrtpt:window.location.href='balletcrypto://store'">
+                <input type="button" value="设置页面" onclick="javascrtpt:window.location.href='balletcrypto://setting'">
+                <input type="button" value="专家模式页面" onclick="javascrtpt:window.location.href='balletcrypto://expertmode'">
+            </div>
+            
         </li>
         <li>
             <input type="button" value="消息详情页" onclick="javascrtpt:window.location.href='balletcrypto://notification?id=486b5eef-f9f1-49cc-8d27-d88d1a1940ab'">
+            <input type="button" value="Transaction Detail" onclick="javascrtpt:window.location.href='balletcrypto://transactiondetail?txid=0x480c714d9836c92cf1eb4998840df4d072881ab495c9808699de1df0e90e6fbf&currency=eth&address=0x97A07F8bA791EaD6B1F1977262B0990Ed566C56f&hashedId=f40034c6c0119d7efbb45f030a43c7f1889d5595aebf77c16406db5a3c07e6da'">
         </li>
         <li>
-            <input type="button" value="设置页面" onclick="javascrtpt:window.location.href='balletcrypto://setting'">
-        </li>
-        <li>
-            <input type="button" value="专家模式页面" onclick="javascrtpt:window.location.href='balletcrypto://expertmode'">
-        </li>
-        <li>
-            <input type="button" value="New user guide 页面" onclick="javascrtpt:window.location.href='balletcrypto://userguide'">
-        </li>
-        <li>
+            <input type="button" value="New user guide" onclick="javascrtpt:window.location.href='balletcrypto://userguide'">
             <input type="button" value="Contact US页面" onclick="javascrtpt:window.location.href='balletcrypto://feedback'">
-        </li>
-        <li>
             <input type="button" value="Scan页面" onclick="javascrtpt:window.location.href='balletcrypto://scan'">
         </li>
         <li>
             <input type="button" value="钱包选择页面" onclick="javascrtpt:window.location.href='balletcrypto://wallet'">
-        </li>
-        <li>
             <input type="button" value="钱包详情页面（B页面）" onclick="javascrtpt:window.location.href='balletcrypto://wallet?hashedId=f40034c6c0119d7efbb45f030a43c7f1889d5595aebf77c16406db5a3c07e6da'">
         </li>
         <li>
             <input type="button" value="Swap历史详情页面" onclick="javascrtpt:window.location.href='balletcrypto://swapdetail?hashedId=f40034c6c0119d7efbb45f030a43c7f1889d5595aebf77c16406db5a3c07e6da&orderId=34825c4087ee30'">
-        </li>
-        <li>
             <input type="button" value="Buy历史详情页面" onclick="javascrtpt:window.location.href='balletcrypto://purchasedetail?hashedId=ee1e23093191ecdac8614af8a42261d841003ed70c9a1a829d0d566c60f6ec23&orderId=0f3b430f-7582-4259-97d7-bba8e488ec75'">
         </li>
-        <li>
-            <input type="button" value="Transaction Detail" onclick="javascrtpt:window.location.href='balletcrypto://transactiondetail?txid=0x480c714d9836c92cf1eb4998840df4d072881ab495c9808699de1df0e90e6fbf&currency=eth&address=0x97A07F8bA791EaD6B1F1977262B0990Ed566C56f&hashedId=f40034c6c0119d7efbb45f030a43c7f1889d5595aebf77c16406db5a3c07e6da'">
-        </li>
+            <br>
+            <div class="txt1" style>
+                <input type="text" placeholder="请输入需要验证的scheme" id="app" name="in"/>
+            </div>
+            <br><br><br>
+            <button onclick="jump()">验证</button>
     </ul>
 </html>
